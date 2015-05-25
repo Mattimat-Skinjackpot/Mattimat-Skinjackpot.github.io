@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html>
 
 <head>
 	<style>
 .nav li { 
-display: inline-block;
+display: inline;
 }
 .nav a {
   color: #5a5a5a;
@@ -24,8 +23,13 @@ border-bottom: 1px solid #dbdbdb;
 
 }
 
+#logo {
+  content: url(http://i.imgur.com/oj7VfZn.png);
+  display: inline-block;
+  width: 124px;
+  height: 50px;
 
-
+}
 
  
 </style> 
@@ -37,19 +41,18 @@ border-bottom: 1px solid #dbdbdb;
 
 
     <body>
-    	 <div class="nav">
+    	  
+<header> 
+  <a href="/">
+<img id="logo" src="http://i.imgur.com/oj7VfZn.png" alt="Skin jackpot">
+</a> 
+       <div class="nav">
       <div class="container">
-         
-  
         <ul class="pull-left">
-          <li> <a href="file:///D:/bootstrap/bootstrap-3.3.4-dist/skinjackpotindex.html">
-  <img  style="left; position: absolute; top: 2; left:20;" src="http://i.imgur.com/oj7VfZn.png" alt="logo" width="164" heigth="164"  />
-</a></li>
-          
-        </ul>
-        <ul class="pull-right">
           <li><a href="#">Home</a></li>
           <li><a href="#">Play</a></li>
+        </ul>
+        <ul class="pull-right">
           <li><a href="#">About</a></li>
           <li><a href="file:///D:/bootstrap/bootstrap-3.3.4-dist/Log-in.html">Log In</a></li>
           <li><a href="#">Help</a></li>
@@ -63,9 +66,10 @@ border-bottom: 1px solid #dbdbdb;
       <div class="container">
        
         
+        <h1>.</h1>
+        <p>.</p>
         
-        
-        <a href="#" style= "position: center">Log in to test your luck and win big</a>
+        <a href="#" style= "position: absolute; right: 850">Log in to test your luck and win big</a>
       </div>
   </div>
 <div style="background-color: #FCF7F7;"> 
