@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+   <style>
+   .nav li { 
+display: inline;
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  }
+
+
+  </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Login</title>
+
+    <!-- Bootstrap -->
+    
+     
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+
+    <link rel="stylesheet" href="/path/to/ideal-image-slider.css">
+    <link rel="stylesheet" href="/path/to/themes/default/default.css">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+  </head>
+  <body>
+     
+
+<div style="background-color: #FCF7F7;"> 
+  <div class="logo">
+  <a href="file:///D:/bootstrap/bootstrap-3.3.4-dist/skinjackpotindex.html">
+  <img  style="left; position: absolute; top: 2; left:20;" src="http://i.imgur.com/oj7VfZn.png" alt="logo" width="164" heigth="164"  />
+</a>
+</div>
+
+
+     <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Play</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">About</a></li>
+          <li><a href="file:///D:/bootstrap/bootstrap-3.3.4-dist/Log-in.html">Log In</a></li>
+          <li><a href="#">Help</a></li>
+          </ul>
+      </div>
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="/path/to/ideal-image-slider.js"></script>
+    <form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form>
+</div>
+
+
+<div id="slider">
+    <a href="http://dev7studios.com"><img src="http://i.imgur.com/0d5xUI0.png" alt=""></a>
+    <a href="http://gilbitron.me"><img data-src="http://i.imgur.com/T3iSh3f.png" src="" alt=""></a>
+    <a href="http://www.google.com"><img data-src="/Ideal-Image-Slider/public/img/3.jpg" src="" alt=""></a>
+    <a href="http://example.com"><img data-src="/Ideal-Image-Slider/public/img/4.jpg" src="" alt=""></a>
+</div>
+    
+
+
+  </body>
+</html>
