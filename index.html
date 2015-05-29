@@ -17,6 +17,25 @@ background-repeat: repeat-x;
 
 }
 
+.navbar-header {
+
+  position: relative;
+
+  top: -9px;
+}
+
+.bottom {
+color: white;
+  position: relative;
+
+  top: 500px;
+  right: 250px;
+
+}
+
+.bottomlink {
+    color: white;
+    }
 </style>
 
 
@@ -40,7 +59,7 @@ background-repeat: repeat-x;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#">SkinJackpot</a>
+      <a class="navbar-brand" href="#"><img src="http://i.imgur.com/V9GHgyJ.png"/></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -50,8 +69,8 @@ background-repeat: repeat-x;
         <li><a href="#">Terms of Service</a></li> 
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="file:///D:/bootstrap/bootstrap-3.3.4-dist/log-in-jackpot.html#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="file:///D:/bootstrap/bootstrap-3.3.4-dist/log-in-jackpot.html#"><spana></span> <img src="http://steamcommunity-a.akamaihd.net/public/images/signinthroughsteam/sits_small.png"></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span></a></li>
       </ul>
     </div>
   </div>
@@ -77,7 +96,7 @@ background-repeat: repeat-x;
   <div class="col-md-4">
     <div class="thumbnail">
       <img src="http://i.imgur.com/0d5xUI0.png" >
-      <button type="button" class="btn btn-danger">Status: Down</button>
+      <button type="button" class="btn btn-danger">Status: Offline</button>
        <button type="button" class="btn btn-info">Players: 0</button>
     </div>
     </div>
@@ -95,14 +114,14 @@ background-repeat: repeat-x;
       <a href="#">
       <img src="http://i.imgur.com/HXpY3ZN.png">
     </a>
-      <button type="button" class="btn btn-warning">Status: Heavy</button>  
+      <button type="button" class="btn btn-warning">Status: Coming soon!</button>  
     </div>
   </div>
 
   <div class="col-md-4">
     <div class="thumbnail">
     <img src="http://i.imgur.com/T3iSh3f.png">
-<button type="button" class="btn btn-danger">Status: Down</button>
+<button type="button" class="btn btn-danger">Status: Offline</button>
     <button type="button" class="btn btn-info">Players: 0</button> <button type="button" class="btn btn-default">Time left: 1:00</button>
     </div>
   </div>
@@ -224,12 +243,40 @@ The larger and more expensive items you bet, the more chance you have to hit the
 <img src="http://i.imgur.com/E5Cu5UI.gif"/>
 </a>
 
-<div>
+</div>
   </div>
 
+  <div> .. </div>
+
+<div class="winfeed">
+  <div class="container">
+    <div style="background-color: #f7f7f7;" class="img-thumbnail">
+      <h3> Latest Winners: </h3>
+      <div class="winlt1" style="display: inline;">
+      <p class="text-success"> Mattimat - 231.09$ (Raffle: 66.12%)</p> 
+      <p class="text-success"> Mattimat - 30.12$  (Raffle: 80.34%)</p>
+      <p class="text-success"> Rein     - 162.13$ (Raffle: 5.31%)</p>  
+</div>
+</div>
+</div>
+</div>
 
 
+<div class="bottom">
+<span><a class="bottomlink" href="#"> Facebook | </a></span> 
+<span><a class="bottomlink" href="#"> Twitter | </a></span>
+<span><a class="bottomlink" href="#"> Steam Group |</a></span>
+<span><a class="bottomlink" href="#">Terms Of Service |</a></span>
+<span><a class="bottomlink" href="http://steampowered.com"> Powered By Steam </a></span>
+        
+</div>
+</div>
 
+<?php 
+
+
+include "OpenId.php";
+include "index.php";?>
 </body>
 
  
